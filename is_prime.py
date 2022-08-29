@@ -21,5 +21,9 @@ def is_prime(num):
     else:
         print("True")
 
-num = int(input("> "))
-is_prime(num)
+def main():
+    num = int(input("> "))
+    is_prime(num)    
+
+if is_prime == "_main_" :
+    main()
