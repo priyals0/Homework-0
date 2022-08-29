@@ -15,7 +15,11 @@ def prime_factorization(n):
     return answer
 
 
-n = int(input("> "))
-print(prime_factorization(n))
+def main():
+    n = int(input("> "))
+    print(prime_factorization(n))
+
+if prime_factorization == "main" :
+    main()
         
     
