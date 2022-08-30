@@ -8,5 +8,5 @@ def main():
     n = int(input("> "))
     print(nth_prime(n))
 
-if nth_prime == "_main_" :
+if nth_prime == "main" :
     main()
