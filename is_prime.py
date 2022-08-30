@@ -25,5 +25,5 @@ def main():
     num = int(input("> "))
     is_prime(num)    
 
-if is_prime == "_main_" :
+if is_prime == "main" :
     main()
