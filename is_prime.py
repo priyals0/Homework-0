@@ -2,7 +2,9 @@
 
 def is_prime(num):
     #num = int(input("> "))
-    if(num%2==0 and num!= 2):
+    if(num<2): 
+        print("False")
+    elif(num%2==0 and num!= 2):
         print("False")
     elif(num%3==0 and num!= 3):
         print("False")
