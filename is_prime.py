@@ -27,5 +27,5 @@ def main():
     num = int(input("> "))
     is_prime(num)    
 
-if is_prime == "main" :
+if __name__ == "__main__" :
     main()
