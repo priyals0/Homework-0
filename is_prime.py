@@ -28,4 +28,4 @@ def main():
     is_prime(num)    
 
 if __name__ == "__main__" :
-    print(main())
+    main()
