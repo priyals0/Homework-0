@@ -24,8 +24,9 @@ def is_prime(num):
         return True
 
 def main():
-    num = int(input("> "))
-    is_prime(num)    
+    While True:
+        num = int(input("> "))
+        is_prime(num)    
 
 if __name__ == "__main__" :
     main()
