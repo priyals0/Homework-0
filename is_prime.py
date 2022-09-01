@@ -28,5 +28,6 @@ def main():
         num = int(input("> "))
         is_prime(num)    
 
-if __name__ == "__main__" :
-    main()
+while True:
+    if __name__ == "__main__" :
+        main()
