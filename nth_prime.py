@@ -9,3 +9,5 @@ if __name__ == "main" :
         n = int(input("> "))
         if(nth_prime(n)>0):
             print(nth_prime(n))
+        else:
+            print("")
