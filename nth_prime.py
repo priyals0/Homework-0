@@ -7,4 +7,5 @@ def nth_prime(n):
 if __name__ == "main" :
     while True:
         n = int(input("> "))
-        print(nth_prime(n))
+        if(nth_prime(n)>0):
+            print(nth_prime(n))
