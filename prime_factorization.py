@@ -15,7 +15,7 @@ def prime_factorization(n):
     return answer
 
 
-if prime_factorization == "main" :
+if __name__ == "__main__" :
     while True:
         n = int(input("> "))
         print(prime_factorization(n))
