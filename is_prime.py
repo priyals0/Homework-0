@@ -27,5 +27,8 @@ def is_prime(num):
 if __name__ == "__main__" :
     while True:
         num = int(input("> "))
-        is_prime(num)    
+        if is_prime(num) == True:
+            print("True")
+        else: 
+            print("False")
   
